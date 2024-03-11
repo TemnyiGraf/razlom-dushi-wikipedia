@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .kingdom-container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50a8a0;
+            color: white;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header h1 {
+            padding: 5px 0;
+            text-align: center;
+        }
+        .kingdom-image {
+            height: 200px;
+            width: auto;
+        }
+        .kingdom-info {
+            color: #333;
+            padding: 20px;
+            text-align: justify;
+        }
+        .kingdom-section {
+            margin-top: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .gallery a {
+            margin: 5px;
+        }
+        .gallery img {
+            max-width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="kingdom-container">
+            <h1>Описание Королевства</h1>
+        </div>
+    </header>
+
+    <div class="kingdom-container">
+        <img class="kingdom-image" src="kingdom.jpg" alt="Королевство">
+        <div class="kingdom-info">
+            <h2>Название Королевства</h2>
+            <p>Здесь будет описание вашего королевства. Вы можете добавить информацию о его истории, географии, культуре, политической структуре и любую другую информацию, которую считаете важной.</p>
+            
+            <div class="kingdom-section">
+                <h3>История</h3>
+                <p>Опишите здесь историю вашего королевства.</p>
+            </div>
+            
+            <div class="kingdom-section">
+                <h3>География</h3>
+                <p>Опишите здесь географию вашего королевства.</p>
+            </div>
+            
+            <div class="kingdom-section">
+                <h3>Культура</h3>
+                <p>Опишите здесь культуру вашего королевства.</p>
+            </div>
+            
+            <div class="kingdom-section">
+                <h3>Политическая структура</h3>
+                <p>Опишите здесь политическую структуру вашего королевства.</p>
+            </div>
+        </div>
+        
+        <div class="gallery">
+            <a href="kingdom1.jpg" target="_blank">
+                <img src="kingdom1.jpg" alt="Королевство 1">
+            </a>
+            <a href="kingdom2.jpg" target="_blank">
+                <img src="kingdom2.jpg" alt="Королевство 2">
+            </a>
+            <a href="kingdom3.jpg" target="_blank">
+                <img src="kingdom3.jpg" alt="Королевство 3">
+            </a>
+            <!-- Добавьте больше изображений по мере необходимости -->
+        </div>
+    </div>
+</body>
+</html>
